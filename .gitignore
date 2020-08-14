@@ -1,0 +1,6 @@
+# Object output directory
+obj/
+
+# ROM binary
+gb_profile_pic.gb
+
