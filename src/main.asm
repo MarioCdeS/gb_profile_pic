@@ -78,7 +78,7 @@ main:
 
     ld b, 20 ; Reset row tile count
 
-    ; Increment destination address past the last remaining tiles in the BG map
+    ; Increment destination address past the last remaining tiles in the BG row
     ld a, e
     add a, 12 ; Skip last 12 tiles
     ld e, a
